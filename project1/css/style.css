@@ -1,0 +1,133 @@
+/*  */
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+.space {
+  clear: both;
+}
+
+.Wrap {
+  width: 1920px;
+  margi: 0 auto;
+}
+
+body {overflow-x: hidden;}
+
+/* 해드부분 */
+.header {
+  padding: 20px 0;
+}
+
+.menu { text-align: right; }
+
+.logo {
+  width: 150px;
+  height: 50px;
+  /* margin: 0 auto; */
+}
+.menu {
+  width: 350px;
+  height: 20px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #555a6d;
+}
+.menu li {
+  width: 70px;
+  float: left;
+  text-align: center;
+}
+
+/* 메인 이미지 부분 */
+.mainimg {
+  width: 1920px;
+  height: 450px;
+  
+}
+
+/* 콘텐츠부분 */
+.box1 {
+  width: 1920px;
+  height: 523px;
+  margin: 0 auto;
+  background-color: #f7f0de;  
+}
+.box1 div{width:50% margin: 0 auto; text-align: center; padding-top: 100px; color: #000000;}
+
+.box2 {
+  width: 1920px;
+  height: 523px;
+  background-color: #d6d2c0;
+}
+.box2 div{width:50% margin: 0 auto; text-align: center; padding-top: 100px; color: #000000;}
+
+.box3 {
+  width: 1920px;
+  height: 639px;
+  background-color: #576f9b;
+}
+.box3_left {
+  width: 50%; height:639px;
+  background-color: #edece0;
+  float: left;
+}
+.box3_left div{width:50% margin: 0 auto; height:639px;text-align: center; padding-top: 100px; color: #000000;}
+.box3_right {
+  width: 50%; height:639px;
+  background-color: #d5d6c1;
+  float: right;
+}
+.box3_right div{width:50% margin: 0 auto; text-align: center; padding-top: 100px; 
+  color: #000000;}
+
+.box4 {
+  width: 1920px;
+  height: 639px;
+}
+.box4_left {
+  width: 50%; height:639px;
+  background-color: #edf7de;
+  float: left;
+}
+.box4_left div{width:50% margin: 0 auto; text-align: center; padding-top: 100px; color: #000000;}
+.box4_right {
+  width: 50%; height:639px;
+  background-color: #cccccc;
+  float: right;
+}
+.box4_right div{width:50% margin: 0 auto; text-align: center; padding-top: 100px; color: #000000;}
+
+/* 푸터 부분 */
+.footer {
+  width: 1920px;
+  height: 171px;
+  background-color: #ffffff;
+}
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  color: #555a6d;
+}
+.sns {
+  width: 120px;
+  margin: 0 auto;
+  margin: 40px 0 0 0;
+}
+.sns li {
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  float: left;
+  text-align: cnter;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+.sns li img {
+  margin: 0 auto; 
+  vertical-align: middle;
+}

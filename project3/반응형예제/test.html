@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+      *{margin:0; padding: 0;}
+      ul,li{list-style: none;}
+      .section:after{display: block; content:""; clear:both;}
+      .section{margin-bottom: 50px;}
+      .logo{float: left;}
+      .menu{float: right;}
+      .menu>li{float: left;}
+      .menu:after{display: bock; content: ""; padding: 0 10px;}
+      .menu_mobile{display: none;}
+      .left{width:50%; height: 100px; background-color:red; float : left;}
+      .right{width:50%; height: 100px; background-color:blue; float: right;}
+      .box1{width:33.3%; height: 100px; background-color:green; float : left;}
+      .box2{width:33.3%; height: 100px; background-color:yellow; float : left;}
+      .box3{width:33.3%; height: 100px; background-color:black; float : left;}
+      .box1_1{width:33.3%; height: 100px; background-color:pink; float : left;}
+      .box2_1{width:33.3%; height: 100px; background-color:grey; float : left;}
+      .box3_1{width:33.3%; height: 100px; background-color:navy; float : left;}
+      .list1{width: 25%; height: 100px; background-color: aqua; float: left ;}
+      .list2{width: 25%; height: 100px; background-color: orange; float: left;}
+      .list3{width: 25%; height: 100px; background-color: purple; float: left;}
+      .list4{width: 25%; height: 100px; background-color: brown; float: left;}
+      .mainimg{width: 100%; height: 300px; }
+      .mainimg>img{width: 100%;}
+
+      @media (max-width:768px) {
+          .left{width: 30%;}
+          .right{width: 70%;}
+          .mainimg_mobile{display: none;}
+      } 
+      @media (max-width: 480px) {
+          .menu{display: none;}
+          .menu_mobile{float: right; display: block;}
+          .left{width: 100%;}
+          .right{width: 100%;}
+          .box1{width: 100%;}
+          .box2{width: 100%;}
+          .box3{width: 100%;}
+          .box1_1{width: 50%;}
+          .box2_1{width: 50%;}
+          .box3_1{width: 100%;}
+          .list1{width: 50%;}
+          .list2{width: 50%;}
+          .list3{width: 50%;}
+          .list4{width: 50%;}
+        .mainimg{display:none;}
+        .mainimg_mobile{display: block;}
+        .mainimg_mobile>img{width: 100%;}
+
+      } 
+
+
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="logo">
+            <img src="img/logo.png" alt="로고">
+        </div>
+        <ul class="menu">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <!-- 초기화 -->
+        </ul>
+                <!-- 초기화 -->
+                <div class="menu_mobile">
+                    <img src="img/gnb_btn.png" alt="모바일메뉴">
+                </div>
+    </div>
+    <div class="section">
+        <div class="left"></div>
+        <div class="right"></div>
+    <!-- 초기화 -->
+    </div>
+    <div class="section">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    <!-- 초기화 -->
+    </div>
+    <div class="section">
+        <div class="box1_1"> </div>
+        <div class="box2_1"> </div>
+        <div class="box3_1"> </div>
+    <!-- 초기화 -->
+    </div>
+    <div class="section">
+        <div class="list1"></div>
+        <div class="list2"></div>
+        <div class="list3"></div>
+        <div class="list4"></div>
+    <!-- 초기화 -->
+    </div>
+    <div class="section">
+        <div class="mainimg">
+            <img src="img/business01.jpg"  alt="메인이미지">
+        </div>
+        <div class="mainimg_mobile">
+            <img src="img/webtoon.jpg" alt="모바일이미지">
+        </div>
+    </div>
+
+</body>
+</html>

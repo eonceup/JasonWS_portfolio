@@ -1,0 +1,39 @@
+/*공통 */
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+.space{clear: both;}
+.inner{width: 1400px; margin:0 auto;}
+body{overflow-x: hidden;}
+
+/*헤더 */
+#header{width: 100%; height: 90px;
+border-bottom: 1px solid #e6e9f0;
+line-height: 90px;}
+.logo{width: 27px; height: 30px; float:left;}
+#header>.inner{width: 1400px; height: 90px; position: relative;}
+.menu{width: 600px; position: absolute; left: 0; right: 0; margin: 0 auto;}
+.menu>li{width: 100px; float: left; text-align:center;}
+.top_banner{float: right;}
+.top_banner>li{float: left;}
+.one{width: 50px; height: 50px;
+background-color: blue;
+border-radius: 50%; margin-top: 22px; text-align: center; 
+line-height: 50px; color: #fff; margin-left: 5px; }
+
+/*메인이미지 부분 */
+#mainimg{width:100%; height: 825px; position: relative;}
+.main_bg{width: 100%; height: 450px; 
+background-color: #3566d6; position: absolute; top:90px;}
+.main_img{width: 1400px; height: 600px;
+background-image: url(../img/Main_slide01.png); background-size:100%;}
+.phone{width: 600px; height: 600px; position: relative; top: 90%; background-image: url(../img/Main_phone01.png); 
+position: relative; right: 0; left: 0; margin: 0 auto;
+background-size:100%;
+background-repeat: no-repeat; top: 100px}
+
+/* 콘텐츠부분 */
+.list {width: 25%; float: left;}
+.list>h2{padding-bottom: 20px;}
+.list>p{padding-bottom: 40px;}
+.list:nth-child(2)>div,.list:nth-child(3)>div,.list:nth-child(4)>div {width: 324px; height: 158px; border: 1px solid #999; padding-top: 100px;}
+
